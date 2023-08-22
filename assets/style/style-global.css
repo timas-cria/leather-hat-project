@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&family=Roboto+Slab:wght@300&family=Ubuntu:wght@300&display=swap');
+/* Ubunto for titles, Roboto Slab for subtitles and Nunito for normal text */
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root .dark {
+    --color-background: #1A1C22;
+    --color-sub-background: #3D3A50;
+    --color-main: #580EF6;
+    --color-secondary: #F7F7F7;
+}
+:root .light {
+    --color-background: #1A1C22;
+    --color-sub-background: #3D3A50;
+    --color-main: #580EF6;
+    --color-secondary: #ce0a0a;
+}
+
+.title {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: xx-large;
+    color: var(--color-secondary);
+}
+.sub-title {
+    font-family: 'Roboto Slab', serif;
+    font-size: larger;
+    color: var(--color-secondary);
+}
+.text {
+    font-family: 'Nunito', sans-serif;
+    font-size: medium;
+    color: var(--color-secondary);
+}
+.body {
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--color-background);
+}
+.small {
+    font-family: 'Nunito', serif;
+    font-size: small;
+    color: var(--color-main);
+}
