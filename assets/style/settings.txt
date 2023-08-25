@@ -1,0 +1,16 @@
+dark colors:
+    #1A1C22
+    #3D3A50
+    #580EF6
+    #F7F7F7
+
+light colors:
+    ?
+
+fonts:
+    'Ubuntu', sans-serif
+    'Roboto Slab', serif
+    'Nunito', sans-serif
+
+sizes: 
+    ?
